@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Campus Corner Coffee — customer-informed café highlights and offers.">
+<title>Campus Corner Coffee | Your Campus Coffee Stop</title>
+<style>
+:root{--espresso:#2e211b;--coffee:#604333;--cream:#fbf6ed;--latte:#ead9c4;--sage:#66765b;--gold:#d9a441;--ink:#2d2925;--muted:#6e665e;--white:#fffdf9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:inherit}.wrap{width:min(1100px,92%);margin:auto}.topbar{background:var(--espresso);color:#fff8ee;padding:14px 0}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:.04em}.navlinks{display:flex;gap:22px;font-size:.92rem}.navlinks a{text-decoration:none;color:#fff8ee}.hero{background:linear-gradient(120deg,rgba(46,33,27,.96),rgba(96,67,51,.84)),radial-gradient(circle at 80% 20%,#b88b55,transparent 45%);color:#fff8ee;padding:78px 0 72px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800;color:#f0c978}.hero h1{font-family:Georgia,serif;font-size:clamp(2.8rem,6vw,5.4rem);line-height:1.02;max-width:760px;margin:12px 0 20px}.hero p{max-width:650px;color:#f2e7da;font-size:1.12rem}.btn{display:inline-block;background:var(--gold);color:var(--espresso);font-weight:800;text-decoration:none;padding:12px 19px;border-radius:999px;margin-top:12px}.section{padding:64px 0}.section-head{max-width:700px;margin-bottom:28px}.kicker{color:var(--sage);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.75rem}.section h2{font:700 clamp(2rem,4vw,3rem)/1.1 Georgia,serif;color:var(--espresso);margin:8px 0 12px}.lead{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{background:var(--white);border:1px solid #eadfce;border-radius:18px;padding:22px;box-shadow:0 8px 24px rgba(46,33,27,.04)}.card h3{margin:10px 0 5px;color:var(--espresso)}.price{font-weight:800;color:var(--sage);font-size:1.1rem}.icon{font-size:1.7rem}.note{font-size:.85rem;color:var(--muted)}.insights{background:#f0e5d5}.rating-summary{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center;background:var(--white);border:1px solid #eadfce;border-radius:18px;padding:28px;margin:25px 0}.rating-number{font:700 clamp(2.7rem,5vw,4rem)/1 Georgia,serif;color:var(--espresso)}.rating-number span{font:500 1rem system-ui;color:var(--muted)}.stars{font-size:2rem;letter-spacing:.08em;color:var(--gold);line-height:1.3}.partial-star{color:#d9a441}.rating-score p{color:var(--muted);margin:5px 0 0}.rating-breakdown{display:grid;gap:10px}.rating-row{display:grid;grid-template-columns:44px 1fr 30px;gap:12px;align-items:center}.rating-label{font-weight:700;color:var(--espresso)}.star-symbol{color:var(--gold)}.rating-track{height:11px;background:#eee4d8;border-radius:99px;overflow:hidden}.rating-track span{display:block;height:100%;background:var(--sage);border-radius:99px}.rating-count{font-size:.9rem;color:var(--muted);text-align:right}.rating-caption{max-width:850px;color:#51473e;font-size:.92rem}.insight-copy{max-width:850px;color:#51473e}.promo{background:var(--sage);color:#fffdf9;border-radius:22px;padding:32px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:22px}.promo h2{color:#fffdf9;margin-top:6px}.promo .kicker{color:#f0c978}.promo p{margin-bottom:0;color:#f1f0e9}.promo-badge{border:1px dashed #f0c978;border-radius:16px;padding:18px;text-align:center;min-width:180px}.promo-badge strong{display:block;font:700 1.5rem Georgia,serif;color:#f0c978}.faq{display:grid;grid-template-columns:1fr 1fr;gap:14px}.faq details{background:var(--white);border:1px solid #eadfce;border-radius:14px;padding:17px 19px}.faq summary{font-weight:750;color:var(--espresso);cursor:pointer}.faq p{margin-bottom:0;color:var(--muted)}footer{background:var(--espresso);color:#eee0d0;padding:24px 0;font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.small{font-size:.82rem;color:var(--muted)}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:14px;flex-wrap:wrap}.hero{padding:58px 0}.grid,.stats,.faq,.rating-summary{grid-template-columns:1fr}.promo{grid-template-columns:1fr}.promo-badge{justify-self:start}.section{padding:48px 0}}
+@media print{.topbar{background:white;color:black}.navlinks,.btn{display:none}.hero{background:#fff;color:#222;padding:25px 0}.hero p{color:#444}.section{padding:25px 0}.insights{background:#fff}.rating-summary{background:#fff;border-color:#ddd}.rating-number{color:#222}.promo{background:#eee;color:#222}.promo h2,.promo p{color:#222}footer{background:white;color:#222}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <div class="brand">☕ CAMPUS CORNER COFFEE</div>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#highlights">Menu highlights</a><a href="#insights">Customer insights</a><a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Your campus coffee stop</div>
+      <h1>Good coffee.<br>Good company.<br>Your corner to recharge.</h1>
+      <p>Make Campus Corner Coffee part of your day—whether you’re settling in to study, catching up with friends, or grabbing a quick pick-me-up.</p>
+      <a class="btn" href="#highlights">Explore the highlights ↓</a>
+    </div>
+  </section>
+
+  <section class="section" id="highlights">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Menu highlights</div>
+        <h2>Customer favorites, with a little something extra</h2>
+        <p class="lead">Prices shown are subject to change.</p>
+      </div>
+      <div class="grid">
+        <article class="card"><div class="icon">☕</div><h3>Cold Brew</h3><p>One of the most frequently recorded products.</p><div class="price">$4.95</div><div class="note">27 recorded purchases</div></article>
+        <article class="card"><div class="icon">🍵</div><h3>Green Tea</h3><p>A popular tea option for a lighter sip.</p><div class="price">$3.75</div><div class="note">21 recorded purchases</div></article>
+        <article class="card"><div class="icon">🧁</div><h3>Muffin</h3><p>A handy bite to pair with your drink.</p><div class="price">$4.25</div><div class="note">20 recorded purchases</div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section insights" id="insights">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Customer insights</div>
+        <h2>Overall Customer Ratings</h2>
+        <p class="lead">Customer satisfaction ratings from 180 visits, shown on a five-star scale.</p>
+      </div>
+      <div class="rating-summary">
+        <div class="rating-score">
+          <div class="rating-number">4.18 <span>/ 5</span></div>
+          <div class="stars" aria-label="Average rating approximately 4.18 out of 5">★★★★<span class="partial-star">★</span></div>
+          <p>Average customer satisfaction</p>
+        </div>
+        <div class="rating-breakdown" aria-label="Rating distribution">
+          <div class="rating-row"><span class="rating-label">5 <span class="star-symbol">★</span></span><div class="rating-track"><span style="width:36.1%"></span></div><span class="rating-count">65</span></div>
+          <div class="rating-row"><span class="rating-label">4 <span class="star-symbol">★</span></span><div class="rating-track"><span style="width:47.2%"></span></div><span class="rating-count">85</span></div>
+          <div class="rating-row"><span class="rating-label">3 <span class="star-symbol">★</span></span><div class="rating-track"><span style="width:15.6%"></span></div><span class="rating-count">28</span></div>
+          <div class="rating-row"><span class="rating-label">2 <span class="star-symbol">★</span></span><div class="rating-track"><span style="width:1.1%"></span></div><span class="rating-count">2</span></div>
+          <div class="rating-row"><span class="rating-label">1 <span class="star-symbol">★</span></span><div class="rating-track"><span style="width:0%"></span></div><span class="rating-count">0</span></div>
+        </div>
+      </div>
+      <p class="rating-caption">Legend: Each row shows the number of customers who gave that star rating. The large score is the average of all 180 satisfaction ratings; 4- and 5-star responses account for 83% of ratings.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="promo">
+        <div>
+          <div class="kicker">Promotion idea</div>
+          <h2>Make it a study break combo</h2>
+          <p>Try a coffee + muffin bundle during study hours. Coffee is the most frequently purchased category, while food orders have a higher average order total. Test the offer and track uptake before making it permanent.</p>
+        </div>
+        <div class="promo-badge"><strong>Bundle test</strong><span>Pick a drink + a bite</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">FAQ</div>
+        <h2>A few quick answers</h2>
+      </div>
+      <div class="faq">
+        <details><summary>When are you open?</summary><p>Official business hours weren’t provided. Please check with the café for current opening and closing times.</p></details>
+        <details><summary>Is Campus Corner a place to study?</summary><p>Studying was the most common visit purpose in the sample, representing 71 of 180 recorded visits.</p></details>
+        <details><summary>What should I try?</summary><p>Cold Brew was the most frequently recorded individual product, followed by Green Tea and Muffin.</p></details>
+        <details><summary>Can I use Wi-Fi?</summary><p>Wi-Fi use was recorded for 97 visits. The records don’t confirm network availability or access details, so ask the café team.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span><strong>Campus Corner Coffee</strong> · Your campus coffee stop</span>
+    <span>Customer insights are based on 180 sample records. Menu prices and promotions may change.</span>
+  </div>
+</footer>
+</body>
+</html>
